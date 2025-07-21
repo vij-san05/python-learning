@@ -9,5 +9,11 @@ def decorator(fun):
 def chocolate():
     print("Chocolate")
 
+@decorator
+def cake():
+    print('Cake another fungtion')
+
 
 chocolate()
+print('**********************')
+cake()
