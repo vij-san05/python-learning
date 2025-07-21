@@ -10,7 +10,7 @@ while True:
         print(f"{index}){product['name']}: ${product['prise']}")
     ID= int(input("Enter Item ID to continue add items"))
     cart.append(products[ID])
-    status= input("Wand to continue add: ")
+    status= input("Wand to continue add : ")
     if status =="YES":
         continue
     else:
