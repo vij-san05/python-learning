@@ -4,6 +4,7 @@ def decorator(fun):
         fun()
         print('Bottom')
     return wrapor
+# Remember the wraper returns in the decerator ffungtion level not in wraper fugtion level
 
 @decorator
 def chocolate():
